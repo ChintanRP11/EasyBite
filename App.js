@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const parent = React.createElement(
     "div", 
     {id: "parent"}, 
@@ -26,7 +29,3 @@ const child3 = React.createElement(
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
-
-const last = ReactDOM.createRoot(document.getElementById("last"));
-last.render(child3);
-
