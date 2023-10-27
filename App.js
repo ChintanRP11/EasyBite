@@ -1,35 +1,48 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import logo from "./public/images/logo.png";
+import userIcon from "./public/images/user-icon.png";
 
-// jsx element
-const title = (
-  <div>
-    <h1 className="head" tabIndex={5}>
-      Heading using JSX element
-    </h1>
+// Nested element using createElement()
+const nestedheaderElement = React.createElement("div", { className: "title" }, [
+  React.createElement("h1", {}, "Heading 1"),
+  React.createElement("h2", {}, "Heading 2"),
+  React.createElement("h3", {}, "Heading 3"),
+]);
+
+// Using JSX
+const nestedheaderJSXElement = (
+  <div className="title">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
   </div>
 );
 
-// same as above but created using functional component
-const TitleComponent = () => (
-  <h1 className="head" tabIndex={5}>
-    Heading using functional component
-  </h1>
+// Using Functional Component
+const NestedHeaderComponent = () => (
+  <div className="title">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+  </div>
 );
 
-// react functional component
-const HeadingComponent = () => (
-  <div id="container">
-    {title}
-    {TitleComponent()}
-    <TitleComponent />
-    <TitleComponent></TitleComponent>
-    <h1 className="heading">
-      Namaste React using React Functional Component 🚀
-    </h1>
+// Header
+const HeaderComponent = () => (
+  <div className="header">
+    <div className="logo">
+      <img src={logo} alt="Logo" />
+    </div>
+    <div className="search-bar">
+      <input type="text" placeholder="Search..." />
+    </div>
+    <div className="user-icon">
+      <img src={userIcon} alt="User Icon" />
+    </div>
   </div>
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComponent />);
+root.render(<HeaderComponent />);
