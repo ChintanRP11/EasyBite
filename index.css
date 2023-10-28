@@ -41,14 +41,14 @@
 }
 
 .res-card {
+    font-family: Sans-serif;
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    text-align: center;
+    padding: 5px;
     margin: 10px;
-    width: 200px;
+    width: 350px;
 }
 
 .res-card:hover {
@@ -56,9 +56,29 @@
 }
 
 .res-image {
-    max-width: 100%;
-    height: 40%;
+    width: 100%;
+    height: 60%;
     border-radius: 8px;
+}
+
+.res-name, .res-desc {
+    margin: 5px;
+}
+
+.res-desc {
+    color: #616161;
+}
+
+.res-details {
+    display: flex;
+    padding: 2px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.res-details h4 {
+    color: grey;
+    margin: 5px;
 }
 
 .body {
