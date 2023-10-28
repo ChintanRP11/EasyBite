@@ -1,26 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-import logo from "./public/images/logo.png";
-
-const Header = () => {
-  return (
-    <div className="header">
-      <div className="logo-container">
-        <img className="logo" src={logo} alt="Logo" />
-      </div>
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
 const resList = [
   {
     id: "441526",
@@ -7174,45 +7151,4 @@ const resList = [
   },
 ];
 
-const RestaurantCard = (props) => {
-  const { resData } = props;
-  const { headerImgUrl, name, description, averageRating, status } = resData;
-  return (
-    <div className="res-card">
-      <img className="res-image" src={headerImgUrl} alt="RES" />
-      <h4 class="res-name">{name}</h4>
-      <h5 class="res-desc">{description}</h5>
-      <div className="res-details">
-        <h4 class="res-ratings">{averageRating.toFixed(1)} Stars</h4>
-        <h4 class="res-delivery-time">{status.asapMinutesRange[1]} mins</h4>
-      </div>
-    </div>
-  );
-};
-
-const Body = () => {
-  return (
-    <div className="body">
-      <div className="search-bar">
-        <input className="search-box" type="text" placeholder="Search..." />
-      </div>
-      <div className="res-container">
-        {resList.map((restaurant) => (
-          <RestaurantCard key={restaurant.id} resData={restaurant} />
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const AppLayout = () => {
-  return (
-    <div className="app">
-      <Header />
-      <Body />
-    </div>
-  );
-};
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout />);
+export default resList;
