@@ -30,7 +30,13 @@
     cursor: pointer;
 }
 
-.nav-items li:hover {
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items li:hover,
+.nav-link:hover {
     color: #ff9900;
 }
 
@@ -132,6 +138,11 @@
 .search-btn:hover,
 .filter-btn:hover {
     background-color: lightgrey;
+}
+
+.res-link {
+    text-decoration: none;
+    color: black;
 }
 
   
