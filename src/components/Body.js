@@ -13,44 +13,35 @@ const Body = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(
-      "https://www.doordash.com/graphql/homeLandingPageStores?operation=homeLandingPageStores",
+    const data2 = await fetch(
+      "https://api.skipthedishes.com/customer/v1/graphql",
       {
-        credentials: "include",
+        credentials: "omit",
         headers: {
           "User-Agent":
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0",
           Accept: "*/*",
-          "Accept-Language": "en-CA",
+          "Accept-Language": "en",
           "content-type": "application/json",
-          "x-experience-id": "doordash",
-          "x-channel-id": "marketplace",
-          "apollographql-client-name":
-            "@doordash/app-consumer-production-ssr-client",
-          "apollographql-client-version": "2.2",
-          "x-csrftoken": "",
-          "sentry-trace": "05b41774ffdd42e48f58759e2def1f7c-ba4930175afc4265-0",
-          "Alt-Used": "www.doordash.com",
+          "User-Token": "33fd86c1-4359-4c6a-b384-af911701fbdc",
+          parameters:
+            "customerId=a19fba7d-eab8-4327-9719-7be334b8bb59&filterBy=&isCuisineSearch=false&isSorted=false&search=",
+          "App-Token": "d7033722-4d2e-4263-9d67-d83854deb0fc",
           "Sec-Fetch-Dest": "empty",
           "Sec-Fetch-Mode": "cors",
-          "Sec-Fetch-Site": "same-origin",
+          "Sec-Fetch-Site": "same-site",
         },
-        referrer: "https://www.doordash.com/en-CA",
-        body: '{"operationName":"homeLandingPageStores","variables":{},"query":"query homeLandingPageStores {\\n  homeLandingPageStores {\\n    storeList {\\n      id\\n      data {\\n        totalStores\\n        stores {\\n          ...FeedServiceStoreResultFragment\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\\nfragment FeedServiceStoreResultFragment on Store {\\n  id\\n  name\\n  description\\n  averageRating\\n  numRatings\\n  numRatingsDisplayString\\n  priceRange\\n  priceRangeDisplayString\\n  displayDeliveryFee\\n  headerImgUrl\\n  url\\n  isConsumerSubscriptionEligible\\n  isSurging\\n  menus {\\n    popularItems {\\n      id\\n      imgUrl\\n      __typename\\n    }\\n    __typename\\n  }\\n  status {\\n    asapAvailable\\n    pickupAvailable\\n    scheduledAvailable\\n    asapMinutesRange\\n    asapPickupMinutesRange\\n    displayNextHours\\n    deliveryUnavailableReason\\n    __typename\\n  }\\n  badge {\\n    backgroundColor\\n    text\\n    __typename\\n  }\\n  storeBadges {\\n    type\\n    text\\n    backgroundColor\\n    __typename\\n  }\\n  __typename\\n}\\n"}',
+        referrer: "https://www.skipthedishes.com/",
+        body: '{"operationName":"QueryRestaurantsCuisinesList","variables":{"city":"windsor","province":"ON","latitude":42.304485,"longitude":-83.0574898,"isDelivery":true,"dateTime":0,"search":"","language":"en","customerId":"a19fba7d-eab8-4327-9719-7be334b8bb59"},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"43375ca22e77a4fc96174783b3a0d52143c8034ebfee962a31c02b2d466639e6"}}}',
         method: "POST",
         mode: "cors",
       }
     );
 
-    const jsonData = await data.json();
+    const jsonData = await data2.json();
+    setListOfRes(jsonData.data?.restaurantsList?.openRestaurants);
 
-    // Optional Chaining
-    setListOfRes(
-      jsonData.data?.homeLandingPageStores?.storeList[0]?.data?.stores
-    );
-    setFilteredListOfRes(
-      jsonData.data?.homeLandingPageStores?.storeList[0]?.data?.stores
-    );
+    setFilteredListOfRes(jsonData.data?.restaurantsList?.openRestaurants);
   };
 
   return listOfRes.length === 0 ? (
@@ -84,9 +75,7 @@ const Body = () => {
         <button
           className="filter-btn"
           onClick={() => {
-            const filteredRes = listOfRes.filter(
-              (res) => res.averageRating > 4.6
-            );
+            const filteredRes = listOfRes.filter((res) => res.skipScore > 95);
             setFilteredListOfRes(filteredRes);
           }}>
           Top Rated Restaurants

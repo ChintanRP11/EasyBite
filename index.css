@@ -1,4 +1,13 @@
+.vsc-initialized {
+    margin: 0px;
+}
+
+.app {
+    background-color: #fafafa;
+}
+
 .header {
+    font-family: JETSansDigital, sans-serif !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,6 +79,69 @@
     justify-content: center;
     align-items: left;
 }
+
+.res-menu {
+    background-color: #fafafa;
+    font-family: JETSansDigital, sans-serif !important;
+    margin: 5px;
+}
+
+.menu-group {
+    max-width: 800px;
+    margin: 10px;
+    padding: 5px;
+    font-family: JETSansDigital, sans-serif !important;
+    background-color: #fafafa;
+}
+
+.menu-item-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.menu-item {
+    background-color: white;
+    display: flex;
+    max-width: 100%;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.menu-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item-details {
+    margin: 5px;
+}
+
+.menu-item-image {
+    margin: 5px;
+}
+
+.item-image {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.item-name {
+    font-size: 20px;
+    margin: 5px;
+}
+.item-description {
+    font-size: 14px;
+    margin: 5px;
+    font-weight: lighter;
+}
+.item-price {
+    font-size: 16px;
+    margin: 5px;
+    font-weight: normal;
+}
+
 
 .res-card {
     font-family: Sans-serif;
@@ -144,5 +216,7 @@
     text-decoration: none;
     color: black;
 }
+
+
 
   
