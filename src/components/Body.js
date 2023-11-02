@@ -6,6 +6,8 @@ const Body = () => {
   const [listOfRes, setListOfRes] = useState([]);
   const [filteredListOfRes, setFilteredListOfRes] = useState([]);
 
+  console.log(useEffect);
+
   const [searchText, setSearchText] = useState([]);
 
   useEffect(() => {
