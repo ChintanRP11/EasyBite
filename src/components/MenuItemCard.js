@@ -1,7 +1,6 @@
 import placholder_logo from "../../public/images/logo-bnw.png";
 
 const MenuItemCard = (props) => {
-  console.log(props);
   const { name, description, centsPrice, imageUrl } = props.listOfItems;
   return (
     <div className="menu-item">

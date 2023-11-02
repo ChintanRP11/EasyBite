@@ -10,8 +10,6 @@ const RestaurantMenu = () => {
 
   useEffect(() => {
     fetchResData();
-    console.log(resMenuData);
-    console.log(menuGroups);
   }, []);
 
   const fetchResData = async () => {
@@ -39,7 +37,6 @@ const RestaurantMenu = () => {
       mode: "cors",
     });
     const jsonData = await data.json();
-    console.log(jsonData);
 
     setResMenuData(jsonData);
     setMenuGroups(jsonData.menu.menuGroups);
