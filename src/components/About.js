@@ -1,16 +1,6 @@
 import { useEffect } from "react";
 
 const About = () => {
-  useEffect(() => {
-    const timer = setInterval(() => {
-      console.log("timer");
-    }, 1000);
-
-    return () => {
-      clearInterval(timer);
-    };
-  });
-
   return (
     <div className="about-us">
       <h1>About Us</h1>
