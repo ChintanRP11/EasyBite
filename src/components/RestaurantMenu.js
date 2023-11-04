@@ -14,9 +14,10 @@ const RestaurantMenu = () => {
   }
 
   return (
-    <div className="res-menu">
-      <h1>{resMenuData.shortName}</h1>
-      <div className="menu-group">
+    <div className="res-menu flex flex-col m-2.5">
+      <h1 className="text-5xl font-bold m-2 p-2">{resMenuData.shortName}</h1>
+      <div className="menu-group w-auto">
+        {console.log(menuGroups)}
         {menuGroups.slice(1).map((grp) => (
           <MenuGroup key={grp.id} grpData={grp} />
         ))}

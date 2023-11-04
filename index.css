@@ -1,4 +1,4 @@
-.vsc-initialized {
+/* .vsc-initialized {
     margin: 0px;
 }
 
@@ -219,4 +219,8 @@
 
 
 
-  
+   */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

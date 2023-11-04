@@ -6,9 +6,27 @@ const Body = () => {
   const [listOfRes, setListOfRes] = useState([]);
   const [filteredListOfRes, setFilteredListOfRes] = useState([]);
 
-  console.log(useEffect);
-
   const [searchText, setSearchText] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 12;
+
+  let totalPages = Math.ceil(filteredListOfRes.length / itemsPerPage);
+
+  let startIndex = (currentPage - 1) * itemsPerPage;
+
+  let endIndex = startIndex + itemsPerPage;
+
+  const nextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const prevPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
 
   useEffect(() => {
     fetchData();
@@ -49,12 +67,12 @@ const Body = () => {
   return listOfRes.length === 0 ? (
     <ResShimmer />
   ) : (
-    <div className="body">
-      <div className="option-bar">
-        <div className="search-bar">
+    <div className="body flex-col">
+      <div className="option-bar flex justify-center m-2 p-1 ">
+        <div className="search-bar mx-2 p-2">
           <input
             type="text"
-            className="search-box"
+            className="search-box p-2 rounded-lg m-1"
             value={searchText}
             placeholder="Search..."
             onChange={(e) => {
@@ -62,31 +80,52 @@ const Body = () => {
             }}
           />
           <button
-            className="search-btn"
+            className="search-btn m-1 bg-blue-700 hover:bg-blue-800 rounded-lg p-2 text-white"
             onClick={() => {
               const filteredRes = listOfRes.filter((res) =>
                 res.name.toLowerCase().includes(searchText.toLowerCase())
               );
-              console.log(filteredRes);
+              totalPages = Math.ceil(filteredRes.length / itemsPerPage);
               setFilteredListOfRes(filteredRes);
+              setCurrentPage(1);
             }}>
             Search
           </button>
         </div>
 
         <button
-          className="filter-btn"
+          className="top-rated-filter m-3 bg-green-700 hover:bg-green-800 rounded-lg p-2 text-white"
           onClick={() => {
             const filteredRes = listOfRes.filter((res) => res.skipScore > 95);
+            totalPages = Math.ceil(filteredRes.length / itemsPerPage);
             setFilteredListOfRes(filteredRes);
+            setCurrentPage(1);
           }}>
           Top Rated Restaurants
         </button>
       </div>
-      <div className="res-container">
-        {filteredListOfRes.map((restaurant) => (
-          <RestaurantCard key={restaurant.id} resData={restaurant} />
-        ))}
+      <div className="res-list m-2 flex flex-col">
+        <div className="res-container p-2 m-2 flex flex-wrap justify-center ">
+          {filteredListOfRes.slice(startIndex, endIndex).map((restaurant) => (
+            <RestaurantCard key={restaurant.id} resData={restaurant} />
+          ))}
+        </div>
+        <div className="page-nav justify-center text-center ">
+          <button
+            className="m-3 w-20 bg-teal-700 hover:bg-teal-800 rounded-lg p-2 text-white"
+            onClick={prevPage}>
+            Previous
+          </button>
+          <span className="text-lg">
+            {currentPage} of{" "}
+            {Math.ceil(filteredListOfRes.length / itemsPerPage)}
+          </span>
+          <button
+            className="m-3 w-20 bg-teal-700 hover:bg-teal-800 rounded-lg p-2 text-white"
+            onClick={nextPage}>
+            Next
+          </button>
+        </div>
       </div>
     </div>
   );
