@@ -106,6 +106,7 @@ const Body = () => {
       </div>
       <div className="res-list m-2 flex flex-col">
         <div className="res-container p-2 m-2 flex flex-wrap justify-center ">
+          {console.log(filteredListOfRes)}
           {filteredListOfRes.slice(startIndex, endIndex).map((restaurant) => (
             <RestaurantCard key={restaurant.id} resData={restaurant} />
           ))}
