@@ -14,7 +14,7 @@ const MenuGroup = (props) => {
   return (
     <div className="flex-col menu-group w-[600px] mx-2 my-2 bg-gray-200 p-2">
       <div
-        className="flex justify-between mx-1 cursor-pointer"
+        className="flex justify-between mx-1 my-1 cursor-pointer"
         onClick={handleClick}>
         <span className="text-lg font-bold px-1">
           {name} {"("}
@@ -23,7 +23,7 @@ const MenuGroup = (props) => {
         </span>
         <span className="text-xl">{showItem ? "▽" : "▷"}</span>
       </div>
-      <div className="menu-item-list w-auto ">
+      <div className="menu-item-list w-auto border rounded-2xl overflow-hidden">
         {showItem &&
           menuList.map((itemList) => (
             <MenuItemCard key={itemList.id} listOfItems={itemList} />

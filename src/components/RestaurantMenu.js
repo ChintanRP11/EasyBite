@@ -25,6 +25,7 @@ const RestaurantMenu = () => {
           .filter((grp) => grp.name !== "Allergies & Intolerances")
           .filter((grp) => grp.name !== "Age Verification")
           .filter((grp) => grp.name !== "Important Alcohol Information")
+          .filter((grp) => grp.name !== "Place Settings")
           .filter((grp) => grp.name !== "")
           .map((grp, index) => (
             <MenuGroup

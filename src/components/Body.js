@@ -1,10 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import ResShimmer from "./ResShimmer";
 import RestaurantCard from "./RestaurantCard";
+import UserContext from "../utils/userContext";
 
 const Body = () => {
   const [listOfRes, setListOfRes] = useState([]);
   const [filteredListOfRes, setFilteredListOfRes] = useState([]);
+
+  const { setUserName, loggedInUser } = useContext(UserContext);
 
   const [searchText, setSearchText] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -67,7 +70,7 @@ const Body = () => {
   return listOfRes.length === 0 ? (
     <ResShimmer />
   ) : (
-    <div className="body flex-col">
+    <div className="body flex-col w-full">
       <div className="option-bar flex justify-center m-2 p-1 ">
         <div className="search-bar mx-2 p-2">
           <input
@@ -103,6 +106,16 @@ const Body = () => {
           }}>
           Top Rated Restaurants
         </button>
+        <div className="mx-2 p-2">
+          <lable>Username: </lable>
+          <input
+            type="text"
+            value={loggedInUser}
+            onChange={(e) => {
+              setUserName(e.target.value);
+            }}
+          />
+        </div>
       </div>
       <div className="res-list m-2 flex flex-col">
         <div className="res-container p-2 m-2 flex flex-wrap justify-center ">
