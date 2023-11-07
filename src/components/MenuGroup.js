@@ -6,7 +6,6 @@ const MenuGroup = (props) => {
   const { showItem, setShowItem } = props;
 
   const handleClick = () => {
-    console.log(setShowItem);
     setShowItem();
   };
 
@@ -25,8 +24,8 @@ const MenuGroup = (props) => {
       </div>
       <div className="menu-item-list w-auto border rounded-2xl overflow-hidden">
         {showItem &&
-          menuList.map((itemList) => (
-            <MenuItemCard key={itemList.id} listOfItems={itemList} />
+          menuList.map((item) => (
+            <MenuItemCard key={item.id} itemData={item} />
           ))}
       </div>
     </div>

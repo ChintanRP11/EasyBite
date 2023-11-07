@@ -3,12 +3,15 @@ import logo from "../../public/images/logo.png";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/userContext";
+import { useDispatch, useSelector } from "react-redux";
 
 const Header = () => {
   const [btnName, setBtnName] = useState("Login");
 
   const data = useContext(UserContext);
   const onlineStatus = useOnlineStatus();
+
+  const cartItems = useSelector((store) => store.cart.items);
 
   return (
     <div className="header flex justify-between p-1 bg-[#333] w-auto">
@@ -42,7 +45,11 @@ const Header = () => {
               Grocery
             </Link>
           </li>
-          <li className="px-2 m-2">Cart</li>
+          <li className="px-2 m-2">
+            <Link to="/cart" className="nav-link">
+              Cart ({cartItems.length} items)
+            </Link>
+          </li>
           <button
             className="login px-4 my-2 mx-4 bg-sky-500 hover:bg-sky-700 rounded-xl "
             onClick={() => {

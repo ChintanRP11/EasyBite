@@ -1,7 +1,15 @@
+import { useDispatch } from "react-redux";
 import placholder_logo from "../../public/images/logo-bnw.png";
+import { addToCart } from "../utils/store/cartSlice";
 
 const MenuItemCard = (props) => {
-  const { name, description, centsPrice, imageUrl } = props.listOfItems;
+  const { name, description, centsPrice, imageUrl } = props.itemData;
+  console.log(props.listOfItems);
+  const dispatch = useDispatch();
+  const handleCart = (item) => {
+    dispatch(addToCart(item));
+  };
+
   return (
     <div className="menu-item flex p-1 flex-row justify-between h-28 bg-white hover:shadow-lg border-b-[1px]">
       <div className="menu-item-details p-1 w-9/12 text-left">
@@ -15,7 +23,9 @@ const MenuItemCard = (props) => {
       </div>
       <div className="inline-flex w-3/12 place-items-end border-l-[1px] p-[2px] pl-2">
         <div className="absolute ">
-          <button className="bg-black text-white p-[5px] rounded-r-xl">
+          <button
+            className="bg-black text-white p-[5px] rounded-r-xl"
+            onClick={() => handleCart(props.itemData)}>
             Add+
           </button>
         </div>
