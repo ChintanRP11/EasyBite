@@ -35,8 +35,8 @@ const useRestaurantMenu = (cleanUrl) => {
 
     const jsonData = await data.json();
 
-    setResMenuData(jsonData);
     setMenuGroups(jsonData.menu?.menuGroups);
+    setResMenuData(jsonData);
   };
   return { resMenuData, menuGroups };
 };

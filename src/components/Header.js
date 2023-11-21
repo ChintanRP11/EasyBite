@@ -57,7 +57,9 @@ const Header = () => {
             }}>
             {btnName}
           </button>
-          <li>{btnName === "Logout" ? data.loggedInUser : "Login"}</li>
+          <li className="px-2 m-2">
+            {btnName === "Logout" ? data.loggedInUser : "Login"}
+          </li>
         </ul>
       </div>
     </div>

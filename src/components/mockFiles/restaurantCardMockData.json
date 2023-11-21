@@ -1,0 +1,57 @@
+{
+    "id": "35761061-94a5-482b-8f53-a07146d3f46e",
+    "name": "Subway",
+    "location": {
+        "name": "Ira Needles Blvd.",
+        "position": {
+            "latitude": 43.4243111,
+            "longitude": -80.5532755
+        }
+    },
+    "online": true,
+    "isOpen": true,
+    "cleanUrl": "subway-ira-needles-boulevard",
+    "estimatedTime": 11,
+    "minEstimatedTime": 11,
+    "maxEstimatedTime": 21,
+    "distance": {
+        "value": 0,
+        "unit": "KM"
+    },
+    "skipScore": 86,
+    "fees": [],
+    "cuisines": [
+        "Locally Sourced",
+        "American",
+        "Canadian",
+        "Pitas",
+        "Breakfast & Brunch",
+        "Vegetarian",
+        "Pepsi",
+        "Delicatessen",
+        "Fast Food",
+        "Sandwiches & Subs",
+        "Healthy"
+    ],
+    "restaurantType": "QUICK_SERVICE",
+    "imageUrls": {
+        "listImageWebUrl": "https://restaurants-static.skipthedishes.com/images/resized/web-7f5ab416a78d92bcf503.png",
+        "listImageMobileUrl": "https://restaurants-static.skipthedishes.com/images/resized/mobile-7f5ab416a78d92bcf503.png",
+        "menuSmallUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-bbcad9577bd0cd85c7ea.jpg"
+    },
+    "defaultSort": 1.4,
+    "defaultSortV2": null,
+    "restaurantGroupId": "5e97e13d-bf2a-4c8b-93bc-8be166c8f54e",
+    "isSponsored": false,
+    "topPlacement": null,
+    "searchData": {
+        "name": "subway",
+        "cuisines": "locally sourced american canadian pitas breakfast & brunch vegetarian pepsi delicatessen fast food sandwiches & subs healthy"
+    },
+    "isNew": false,
+    "restaurantOffer": null,
+    "restaurantOffers": [],
+    "freeItem": null,
+    "isFavourite": null,
+    "isRetailMenu": false
+}

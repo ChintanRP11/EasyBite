@@ -63,11 +63,12 @@ const Body = () => {
   return listOfRes.length === 0 ? (
     <ResShimmer />
   ) : (
-    <div className="body flex-col w-full">
-      <div className="option-bar flex justify-center m-2 p-1 ">
+    <div className="body bg-gray-200 flex-col w-full">
+      <div className="option-bar flex justify-center p-1 ">
         <div className="search-bar mx-2 p-2">
           <input
             type="text"
+            data-testid="searchInput"
             className="search-box p-2 rounded-lg m-1"
             value={searchText}
             placeholder="Search..."
@@ -92,7 +93,7 @@ const Body = () => {
         <button
           className="top-rated-filter m-3 bg-green-700 hover:bg-green-800 rounded-lg p-2 text-white"
           onClick={() => {
-            const filteredRes = listOfRes.filter((res) => res.skipScore > 95);
+            const filteredRes = listOfRes.filter((res) => res.skipScore > 98);
             totalPages = Math.ceil(filteredRes.length / itemsPerPage);
             setFilteredListOfRes(filteredRes);
             setCurrentPage(1);
@@ -103,6 +104,7 @@ const Body = () => {
           <p>Username: </p>
           <input
             type="text"
+            className="p-1"
             value={loggedInUser}
             onChange={(e) => {
               setUserName(e.target.value);

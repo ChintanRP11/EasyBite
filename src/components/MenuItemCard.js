@@ -4,14 +4,15 @@ import { addToCart } from "../utils/store/cartSlice";
 
 const MenuItemCard = (props) => {
   const { name, description, centsPrice, imageUrl } = props.itemData;
-  console.log(props.listOfItems);
   const dispatch = useDispatch();
   const handleCart = (item) => {
     dispatch(addToCart(item));
   };
 
   return (
-    <div className="menu-item flex p-1 flex-row justify-between h-28 bg-white hover:shadow-lg border-b-[1px]">
+    <div
+      data-testid="foodItem"
+      className="menu-item flex p-1 flex-row justify-between h-28 bg-white hover:shadow-lg border-b-[1px]">
       <div className="menu-item-details p-1 w-9/12 text-left">
         <h3 className="item-name font-bold p-1 overflow-hidden h-8">{name}</h3>
         <p className="item-description text-sm p-1 max-w-full overflow-hidden truncate ">

@@ -6,12 +6,12 @@ const RestaurantCard = (props) => {
     resData;
 
   return (
-    <div className="res-card m-2 p-1 rounded-md bg-white">
+    <div data-testid="resCard" className="res-card m-2 p-1 rounded-md bg-white">
       <Link to={{ pathname: `/restaurant/${cleanUrl}` }} className="res-link">
         <img
           className="res-image w-[350px] h-44 rounded-md "
           src={imageUrls.menuSmallUrl}
-          alt="RES"
+          alt="Restaurant-Image"
         />
         <h4 className="w-[350px] res-name font-serif text-lg font-bold">
           {name}

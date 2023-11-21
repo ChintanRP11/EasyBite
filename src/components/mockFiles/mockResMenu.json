@@ -1,0 +1,1357 @@
+{
+    "id": "f5f3f074-b6ea-4aff-b6c2-79cfaef9bcb6",
+    "name": "The Oven Pizza (King St. E)",
+    "shortName": "The Oven Pizza",
+    "location": {
+        "latitude": 43.3905147,
+        "longitude": -80.3475542,
+        "address": "1453 King St E, Cambridge, ON N3H 3R3, Canada",
+        "address1": "1453 King St E",
+        "city": "Cambridge",
+        "province": "ON",
+        "country": "CAN",
+        "postalCode": "N3H 3R3"
+    },
+    "isDelco": true,
+    "online": true,
+    "cleanUrl": "the-oven-pizza-king-street-east",
+    "skipScore": 100,
+    "cuisines": [
+        "Pizza",
+        "Italian",
+        "Wings",
+        "Ailes",
+        "Indian",
+        "Saveurs d’automne",
+        "Fusion",
+        "Indien",
+        "Italien",
+        "Fall Food Moments"
+    ],
+    "imageUrls": {
+        "menuImageListUrl": "https://menu-images-static.skipthedishes.com/images/resized/listImage-ebd7931b5b88a169e3a1.jpg",
+        "menuImageLargeUrl": "https://menu-images-static.skipthedishes.com/images/resized/large-ebd7931b5b88a169e3a1.jpg",
+        "menuImageMediumUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-ebd7931b5b88a169e3a1.jpg",
+        "menuImageSmallUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-ebd7931b5b88a169e3a1.jpg",
+        "listImageWebUrl": "https://menu-images-static.skipthedishes.com/images/resized/web-72d104482b2c692feaf0.jpg",
+        "listImageMobileUrl": "https://menu-images-static.skipthedishes.com/images/resized/mobile-72d104482b2c692feaf0.jpg"
+    },
+    "acceptsPickup": true,
+    "foodPrepMinutes": 15,
+    "isOpen": true,
+    "timeZone": "America/Toronto",
+    "acceptedPaymentTypes": {
+        "acceptsCreditCard": true,
+        "acceptsCash": false,
+        "acceptsInteracOnline": true,
+        "acceptsCorporate": true
+    },
+    "contactInfo": {
+        "email": "ovenonking@gmail.com",
+        "phoneNumber": "(519) 650-2727"
+    },
+    "currency": {
+        "currencyCode": "CAD"
+    },
+    "menuItemSpecialInstructions": true,
+    "delcoHours": {
+        "sunday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                }
+            }
+        ],
+        "monday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                }
+            }
+        ],
+        "tuesday": [],
+        "wednesday": [],
+        "thursday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                }
+            }
+        ],
+        "friday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                }
+            }
+        ],
+        "saturday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                }
+            }
+        ]
+    },
+    "deliveryHours": {
+        "sunday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                }
+            }
+        ],
+        "monday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                }
+            }
+        ],
+        "tuesday": [],
+        "wednesday": [],
+        "thursday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                }
+            }
+        ],
+        "friday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                }
+            }
+        ],
+        "saturday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                }
+            }
+        ]
+    },
+    "hours": {
+        "sunday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                }
+            }
+        ],
+        "monday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                }
+            }
+        ],
+        "tuesday": [],
+        "wednesday": [],
+        "thursday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                }
+            }
+        ],
+        "friday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                }
+            }
+        ],
+        "saturday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                }
+            }
+        ]
+    },
+    "displayDeliveryHours": {
+        "sunday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "monday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "tuesday": [],
+        "wednesday": [],
+        "thursday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "friday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "saturday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ]
+    },
+    "displayDelcoHours": {
+        "sunday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "monday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "tuesday": [],
+        "wednesday": [],
+        "thursday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "friday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "saturday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ]
+    },
+    "displayPickupHours": {
+        "sunday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "monday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "tuesday": [],
+        "wednesday": [],
+        "thursday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 21,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "friday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ],
+        "saturday": [
+            {
+                "start": {
+                    "hour": 11,
+                    "minute": 0
+                },
+                "end": {
+                    "hour": 23,
+                    "minute": 30
+                },
+                "pastMidnight": false
+            }
+        ]
+    },
+    "estimatedTime": 46,
+    "minEstimatedTime": 46,
+    "maxEstimatedTime": 56,
+    "menu": {
+        "menuGroups": [
+            {
+                "id": "ALLERGY_GROUP",
+                "name": "Allergies \u0026 Intolerances",
+                "description": "SkipTheDishes is not involved with food preparation. If you have a food allergy or intolerance (or someone you’re ordering for has), phone the restaurant at (519) 650-2727 before placing your order.",
+                "menuItems": []
+            },
+            {
+                "id": "fe61a9fd-4d55-4dc1-9059-1ef9ab8a0926",
+                "name": "Appetizers",
+                "description": "",
+                "menuItems": [
+                    {
+                        "id": "0d3d01b1-1861-4ad2-926d-80e05a992a9e",
+                        "name": "Samosa Chaat",
+                        "centsPrice": 1399,
+                        "description": "Samosa chaat served with house-made sauces and veggies.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-d26a91f668681a663feb.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-d26a91f668681a663feb.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-d26a91f668681a663feb.jpeg",
+                        "isPrimary": false,
+                        "removed": false
+                    },
+                    {
+                        "id": "b0c6c65e-9297-468b-aeff-03c3c738a08a",
+                        "name": "Loaded Cheese Fries",
+                        "centsPrice": 1399,
+                        "description": "Mixed cheese, Bacon, Onion, Tomato, Jalapeno, Onion, Ranch drizzle and Sour cream on side.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-55edf56909beb0bbe222.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-55edf56909beb0bbe222.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-55edf56909beb0bbe222.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "ddc83eea-a946-4e72-875b-2af5086895cf",
+                        "name": "Oven Nachos",
+                        "centsPrice": 1499,
+                        "description": "Crispy tortilla chips topped with mixed cheese, tomato, onion, jalapeno, black olive, green pepper, salsa and sour cream on side.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-4e1add2ea48a3ad1c9f6.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-4e1add2ea48a3ad1c9f6.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-4e1add2ea48a3ad1c9f6.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "41da705b-2fc1-4c7d-a44c-ae5031204189",
+                        "name": "Traditional Poutine (Large)",
+                        "centsPrice": 1199,
+                        "description": "Fries, cheese, and gravy.",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "9850eebb-4e70-4dab-b55f-45130a1c9ead",
+                        "name": "Mozzarella sticks",
+                        "centsPrice": 1299,
+                        "description": "served with marinara sauce.",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "4c503666-a07f-4b4b-a7ed-c42236160435",
+                        "name": "Sweet potato fries",
+                        "centsPrice": 1199,
+                        "description": "served with chipotle sauce.",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "e4682a01-36ea-4412-890b-f854199bc9e3",
+                        "name": "Bread Sticks",
+                        "centsPrice": 999,
+                        "description": "12 inch.",
+                        "available": true,
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "a5150a0d-86ad-4f04-a4f0-86a88444857f",
+                "name": "Oven Special Pizzas",
+                "description": "",
+                "menuItems": [
+                    {
+                        "id": "9e0c32e0-af50-4a44-b276-00a6b3d6cf05",
+                        "name": "Butter Chicken or Paneer Pizza",
+                        "centsPrice": 2199,
+                        "description": "Butter sauce, butter chicken or paneer, onion, green peppers, black olives, cilantro, and sesame crust.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-96fe7880dee3f54208dc.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-96fe7880dee3f54208dc.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-96fe7880dee3f54208dc.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "0840aa2d-6c96-461d-b49f-9073f1f8e103",
+                        "name": "Tandoori Chicken or Paneer Pizza",
+                        "centsPrice": 2199,
+                        "description": "Tandoori sauce, tandoori chicken or paneer, green pepper, onion, jalapeno pepper, cilantro, and sesame crust.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-40605071a6192b17c723.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-40605071a6192b17c723.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-40605071a6192b17c723.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "1bfb3e77-c858-4db5-b476-98a6e10250f8",
+                        "name": "Shawarma Pizza",
+                        "centsPrice": 2199,
+                        "description": "Shawarma sauce, chicken, tomato, onion, black olives, hot peppers, garlic sauce drizzle, and sesame crust.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-9082e8d51986db16e876.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-9082e8d51986db16e876.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-9082e8d51986db16e876.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "cc50d150-5ff2-40b2-b795-8e0c18f716f7",
+                        "name": "Chicken Taco or Meatball Taco Pizza",
+                        "centsPrice": 2199,
+                        "description": "Taco sauce, chicken or meatball, green peppers, tomato, onion, jalapeno, cheddar cheese, and cilantro.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-3a42297b5c4c4de25867.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-3a42297b5c4c4de25867.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-3a42297b5c4c4de25867.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "daf0acfa-f429-4f53-bdfd-8cb00b822c6c",
+                        "name": "C-Town Pizza",
+                        "centsPrice": 2199,
+                        "description": "Pepperoni, Sausage, Red pepper, Onion, and Mushroom.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-cde7802c5f20003a1b40.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-cde7802c5f20003a1b40.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-cde7802c5f20003a1b40.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "9ae536e0-c37d-4a9b-8ba1-e9c475b84352",
+                        "name": "Chicken Bacon Alfredo Garlic Pizza",
+                        "centsPrice": 2199,
+                        "description": "Garlic alfredo sauce, Chicken, Bacon, Mushroom, Onion, and Cheddar cheese.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-75f7024e42c13a42bd9c.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-75f7024e42c13a42bd9c.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-75f7024e42c13a42bd9c.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "7be23ab0-85de-45e6-b32c-6dafafac8be8",
+                        "name": "Basil Pesto Amore",
+                        "centsPrice": 2199,
+                        "description": "Thin crust pesto sauce, garlic, chicken, red peppers, onion, and feta cheese.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-b215df7de5b1463fb568.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-b215df7de5b1463fb568.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-b215df7de5b1463fb568.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "081b650b-79d1-4422-91f5-8082d4f6e287",
+                        "name": "Cheese Burger Pizza",
+                        "centsPrice": 2199,
+                        "description": "Bacon, meatball, tomato, cheddar cheese, and sesame crust.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-b0accd6b6a0cfb20b3c7.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-b0accd6b6a0cfb20b3c7.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-b0accd6b6a0cfb20b3c7.jpeg",
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "d2c40e1e-8617-488e-b886-13678af5bf22",
+                "name": "Original\u0027s Pizza",
+                "description": "",
+                "menuItems": [
+                    {
+                        "id": "b5bf8dc1-e1e1-444f-b8a8-1c2727c216db",
+                        "name": "Hawaiian Supreme Pizza",
+                        "centsPrice": 1899,
+                        "description": "Ham, pineapple, bacon strips, and extra cheese.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-aaef9e273f6e0889baf3.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-aaef9e273f6e0889baf3.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-aaef9e273f6e0889baf3.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "e6d01ace-6cbe-4233-981d-26d3e285f797",
+                        "name": "Canadian Pizza",
+                        "centsPrice": 1899,
+                        "description": "Pepperoni, Bacon strips, and Mushroom.",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "ccdfc053-be15-4f12-b062-489fc8565d42",
+                        "name": "Deluxe Pizza",
+                        "centsPrice": 1899,
+                        "description": "Pepperoni, Bacon strips, Green peppers, and Mushroom.",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "b9ed221b-aa5f-4676-bb22-7717e0d22f33",
+                        "name": "Veggie Pizza",
+                        "centsPrice": 1899,
+                        "description": "Garlic, Red peppers, Onion, Mushroom, and Green pepper.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-f1d2b43650305bdea3c3.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-f1d2b43650305bdea3c3.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-f1d2b43650305bdea3c3.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "c754d369-1148-4f16-9ce8-2c6c04b1258b",
+                        "name": "Meat Mountain Pizza",
+                        "centsPrice": 1899,
+                        "description": "Pepperoni, Bacon, Sausage, Ham, and Sesame crust.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-7427a201c637ee96e42e.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-7427a201c637ee96e42e.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-7427a201c637ee96e42e.jpeg",
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "f165d967-e837-46cf-83ef-014d51872df8",
+                "name": "Chicken Coop",
+                "description": "Breaded Chicken Wings.",
+                "menuItems": [
+                    {
+                        "id": "a43185d4-e99c-493f-9e9c-a0b34291543b",
+                        "name": "8 Pieces",
+                        "centsPrice": 1199,
+                        "description": "One order comes with your choice of eight pieces of breaded wings.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-dcdcd84215a5ab6cf34c.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-dcdcd84215a5ab6cf34c.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-dcdcd84215a5ab6cf34c.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "bedc37db-513a-4836-b5f2-cb8132c437d8",
+                        "name": "14 Pieces",
+                        "centsPrice": 1899,
+                        "description": "One order comes with your choice of fourteen pieces of breaded wings.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-d25211dc20c5c1cf000a.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-d25211dc20c5c1cf000a.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-d25211dc20c5c1cf000a.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "47f92bb2-6675-4f81-b327-d52847e9058b",
+                        "name": "22 Pieces",
+                        "centsPrice": 2599,
+                        "description": "One order comes with your choice of twenty-two pieces of breaded wings.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-55bdffd29d8a3dd90d15.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-55bdffd29d8a3dd90d15.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-55bdffd29d8a3dd90d15.jpeg",
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "82b262e2-db96-435d-bfa0-d1d777beeed6",
+                "name": "Create Your Own Pizza",
+                "description": "",
+                "menuItems": [
+                    {
+                        "id": "07e791b4-70d6-4088-84f6-e5c30cab4110",
+                        "name": "Create Your Own 12\" Medium Pizza",
+                        "centsPrice": 1299,
+                        "description": "12\" medium pizza in eight slices.",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "3a670048-1254-4ed7-8412-2ca47891bd89",
+                        "name": "Create Your Own 14\" Large Pizza",
+                        "centsPrice": 1699,
+                        "description": "14\" large pizza in eight slices.",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "9d92c434-51ea-4ade-9897-b923eadd542c",
+                        "name": "Create Your Own 16\" X-Large Pizza",
+                        "centsPrice": 1999,
+                        "description": "16\" X-large pizza in ten slices.",
+                        "available": true,
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "39d00e98-def3-497e-a854-76fe40df7b35",
+                "name": "Manager\u0027s Special",
+                "description": "Three toppings, one drink, and dip.",
+                "menuItems": [
+                    {
+                        "id": "bf5337fe-19ac-420c-aa5a-3f3279df86e1",
+                        "name": "Medium Manager\u0027s Special",
+                        "centsPrice": 1699,
+                        "description": "Three toppings, one drink with one dip.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-f3b56387c98b99941b7a.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-f3b56387c98b99941b7a.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-f3b56387c98b99941b7a.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "9c812954-7676-4b6e-9736-ced08a74173f",
+                        "name": "Large Manager\u0027s Specials",
+                        "centsPrice": 1899,
+                        "description": "Three toppings, one drink with one dip.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-6bb7eddf00a6a8b129c6.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-6bb7eddf00a6a8b129c6.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-6bb7eddf00a6a8b129c6.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "66b1884e-8376-4013-9def-8e8e34b8562a",
+                        "name": "Extra Large Manager\u0027s Special",
+                        "centsPrice": 2299,
+                        "description": "Three toppings, one drink with one dip.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-0abac3220c63d9f84525.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-0abac3220c63d9f84525.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-0abac3220c63d9f84525.jpeg",
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "2c9360b8-93c6-4f6f-a259-a4b077a61e02",
+                "name": "All In One Pizza",
+                "description": "",
+                "menuItems": [
+                    {
+                        "id": "d9450f6b-981b-4bf7-859d-7d355ec5e874",
+                        "name": "Medium All In One Pizza",
+                        "centsPrice": 2399,
+                        "description": "Medium all in one pizza comes with your choice of eight toppings.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-0751c08256574023b66b.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-0751c08256574023b66b.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-0751c08256574023b66b.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "bdf79a5d-a423-4f9b-8f62-cb9a7af20278",
+                        "name": "Large All One Pizza",
+                        "centsPrice": 2799,
+                        "description": "Large all in one pizza comes with your choice of eight toppings.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-1911e67da4b73aa9d277.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-1911e67da4b73aa9d277.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-1911e67da4b73aa9d277.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "61b13da0-3d9a-4f12-8706-75d2bdda947f",
+                        "name": "Extra Large All In One Pizza",
+                        "centsPrice": 3199,
+                        "description": "Extra-large all-in-one pizza comes with your choice of eight toppings.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-db1316918ad5078c58db.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-db1316918ad5078c58db.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-db1316918ad5078c58db.jpeg",
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "3dc8ead0-8fbd-471b-9038-34770354a037",
+                "name": "Signature Combos",
+                "description": "Pizza with three toppings with eight pieces chicken wings, Garlic bread ,drink and dip.",
+                "menuItems": [
+                    {
+                        "id": "9f3c8777-fb3e-42f1-b056-bd1898071d82",
+                        "name": "Medium Signature Combo",
+                        "centsPrice": 2899,
+                        "description": "One medium 3 topping pizza, 8 Pcs Chicken wings, Garlic bread ,1 pop and 1 dip.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-20b56e47c326adb33719.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-20b56e47c326adb33719.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-20b56e47c326adb33719.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "1378ffa2-f818-4865-a241-ca4f68ec8078",
+                        "name": "Large Signature Combo",
+                        "centsPrice": 3199,
+                        "description": "One Large 3 topping pizza, 8 Pcs Chicken wings, Garlic bread ,1 pop and 1 dip.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-ea43d5e35db96927a5af.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-ea43d5e35db96927a5af.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-ea43d5e35db96927a5af.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "2160eebf-e849-499b-881e-a3a75a2b1ee6",
+                        "name": "Extra Large Signature Combo",
+                        "centsPrice": 3399,
+                        "description": "One X-Large 3 topping pizza, 8 Pcs Chicken wings, Garlic bread ,1 pop and 1 dip..",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-36f6611d056df6df1549.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-36f6611d056df6df1549.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-36f6611d056df6df1549.jpeg",
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "89caee50-33d1-46a2-ace7-b61fde7b4828",
+                "name": "Family Combo",
+                "description": "Two pizzas, 3 toppings each and choose any one side item.",
+                "menuItems": [
+                    {
+                        "id": "94273588-83ca-44e1-aadf-b0b657b85670",
+                        "name": "Medium Family Special",
+                        "centsPrice": 2999,
+                        "description": "Two medium Pizza, 3 toppings each and choice of your any 1 side item.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-8918dd6820882360b1ba.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-8918dd6820882360b1ba.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-8918dd6820882360b1ba.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "cf5b68f0-fd1c-48fe-b8f0-f26ca36cad6c",
+                        "name": "Large Family Combo",
+                        "centsPrice": 3499,
+                        "description": "Two Large Pizza, 3 toppings each and choice of your any 1 side item.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-6a44ffa811bf0b9a9125.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-6a44ffa811bf0b9a9125.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-6a44ffa811bf0b9a9125.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "c8f51e90-199b-40e2-b2b2-3c08d1a920ba",
+                        "name": "Extra-Large Family Special",
+                        "centsPrice": 3999,
+                        "description": "Two X-Large Pizza, 3 toppings each and choice of your any 1 side item..",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-264b099ce79458e8fe6e.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-264b099ce79458e8fe6e.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-264b099ce79458e8fe6e.jpeg",
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "c65eceed-f7a2-45ad-8e36-5a7add84ad29",
+                "name": "Party Specials",
+                "description": "Three pizzas with three toppings each.",
+                "menuItems": [
+                    {
+                        "id": "a2cffbdb-6e66-4267-a069-21480a9f3eb2",
+                        "name": "Medium Party Special",
+                        "centsPrice": 3599,
+                        "description": "Three Medium Three-topping pizzas",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-0db7dfaffc60d4a7112e.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-0db7dfaffc60d4a7112e.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-0db7dfaffc60d4a7112e.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "793da08e-f908-4603-87b7-a4e506b4677f",
+                        "name": "Large Party Special",
+                        "centsPrice": 4499,
+                        "description": "Three large, Three-topping pizzas",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-7be026f388f832d5f1d3.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-7be026f388f832d5f1d3.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-7be026f388f832d5f1d3.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "ae4a530b-b506-492a-88a7-b799b0b70ad6",
+                        "name": "Extra Large Party Special",
+                        "centsPrice": 5699,
+                        "description": "Three extra-large three-topping pizzas.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-950873b3cc40c617fd75.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-950873b3cc40c617fd75.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-950873b3cc40c617fd75.jpeg",
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "d94fde01-fd55-4e6f-a1e4-2688aed9f128",
+                "name": "Sides",
+                "description": "",
+                "menuItems": [
+                    {
+                        "id": "307bf380-a763-4bf1-9295-1d60c72411b0",
+                        "name": "Samosa (1 piece)",
+                        "centsPrice": 179,
+                        "description": "Vegetarian. Potato and chickpea spice.",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "d6a0dca6-5675-4489-a17a-7ff26361862b",
+                        "name": "Crispy Fries",
+                        "centsPrice": 599,
+                        "description": "",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-c2b41ce80bfcc7e81a54.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-c2b41ce80bfcc7e81a54.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-c2b41ce80bfcc7e81a54.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "bed532ef-85de-4abc-8b9c-81942adfb335",
+                        "name": "Crispy Onion Rings",
+                        "centsPrice": 699,
+                        "description": "",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-39029d5f68ca6a70dbab.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-39029d5f68ca6a70dbab.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-39029d5f68ca6a70dbab.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "1943b375-7dcb-4eae-b9cf-17b8c94d398e",
+                        "name": "Breadsticks",
+                        "centsPrice": 649,
+                        "description": "Garlic spread, Oregano, parmesan cheese and Marinara sauce on side.",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "7be09282-30cd-48ba-8d92-aece2afe9a7b",
+                        "name": "Garlic Bread",
+                        "centsPrice": 499,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "0eeb786e-5d5e-4cd8-a17b-f40af59d023a",
+                "name": "Fish and Chips",
+                "description": "Battered fish served with fries, lemon, and tartar sauce.",
+                "menuItems": [
+                    {
+                        "id": "6aaab129-e4e8-4ed4-b129-907a10a01133",
+                        "name": "Fish and Chips (1 pc)",
+                        "centsPrice": 1499,
+                        "description": "Battered haddock fish served with fries, lemon and tartar sauce.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-2272084fab71c9fc1356.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-2272084fab71c9fc1356.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-2272084fab71c9fc1356.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "131b5eca-7ca0-4839-858c-c11b81ebd86b",
+                        "name": "Fish and Chips (2 pcs)",
+                        "centsPrice": 1999,
+                        "description": "Battered haddock fish served with fries, lemon and tartar sauce.",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-caa8b9b2a94f5302fffe.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-caa8b9b2a94f5302fffe.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-caa8b9b2a94f5302fffe.jpeg",
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "8f987a09-e198-406b-846b-9e818155b802",
+                "name": "Dessert",
+                "description": "",
+                "menuItems": [
+                    {
+                        "id": "4e1c85e1-7751-4fd8-91ed-2ec1556cec02",
+                        "name": "Lava Cake",
+                        "centsPrice": 299,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "10821826-2e89-4284-97a6-6991edc0e332",
+                        "name": "Cheese Cake (1 pc)",
+                        "centsPrice": 399,
+                        "description": "",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-0258eb1abf40227a16f4.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-0258eb1abf40227a16f4.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-0258eb1abf40227a16f4.jpeg",
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "a2c18b19-822d-4f40-874b-8124a42e67fa",
+                        "name": "Funnel Cake Fries",
+                        "centsPrice": 799,
+                        "description": "Strips of delicious funnel cake topped with sugar and cinnamon. Includes an order of Caramel Dip to make it even more epic!",
+                        "available": true,
+                        "imageUrl": "https://menu-images-static.skipthedishes.com/images/resized/item-d160ff703753523e4156.jpeg",
+                        "mediumImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/medium-d160ff703753523e4156.jpeg",
+                        "smallImageUrl": "https://menu-images-static.skipthedishes.com/images/resized/small-d160ff703753523e4156.jpeg",
+                        "isPrimary": false,
+                        "removed": false
+                    }
+                ]
+            },
+            {
+                "id": "85a2a9d4-974a-49bd-82a1-a8640cfaf165",
+                "name": "Dipping Sauce",
+                "description": "",
+                "menuItems": [
+                    {
+                        "id": "b19ef78b-8859-4cfd-a4aa-f41f3417a448",
+                        "name": "Creamy Garlic (44 ml)",
+                        "centsPrice": 139,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "c0b54d39-81f1-41d2-b6c9-4ad8eb12463d",
+                        "name": "Ranch (44 ml)",
+                        "centsPrice": 139,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "4e57b47f-20f7-473b-8eb2-99e3b0769871",
+                        "name": "Cheddar Chipotle (44 ml)",
+                        "centsPrice": 139,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "e2dc0285-bc2e-4d9a-86cd-b7d95ca383bc",
+                        "name": "Franks Hot Sauce (44 ml)",
+                        "centsPrice": 99,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "66b39bcf-d2cf-41a5-a194-3d2ad13024f6",
+                        "name": "Medium Sauce (44 ml)",
+                        "centsPrice": 99,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "626270ee-6ace-46b0-98e5-4ee384150837",
+                        "name": "Honey Garlic Sauce (44 ml)",
+                        "centsPrice": 99,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    },
+                    {
+                        "id": "826d7ea6-8ff1-4b19-82ff-1bc689ac5298",
+                        "name": "Marinara Sauce (44 ml)",
+                        "centsPrice": 99,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    }
+                ]
+            },
+            {
+                "id": "f906338b-5d76-4004-a9f7-b0f362b476b0",
+                "name": "Drinks",
+                "description": "",
+                "menuItems": [
+                    {
+                        "id": "bc5c1ae9-5940-4083-be9e-ddfffe8f635c",
+                        "name": "Canned Pop (250 ml)",
+                        "centsPrice": 149,
+                        "description": "",
+                        "available": true,
+                        "isPrimary": false
+                    }
+                ]
+            }
+        ],
+        "timeZone": "America/Toronto",
+        "popularItems": {
+            "items": []
+        }
+    },
+    "hasMenuPhoto": true,
+    "distance": 0.0,
+    "times": [
+        1700157600000,
+        1700158500000,
+        1700159400000,
+        1700160300000,
+        1700161200000,
+        1700162100000,
+        1700163000000,
+        1700163900000,
+        1700164800000,
+        1700165700000,
+        1700166600000,
+        1700167500000,
+        1700168400000,
+        1700169300000,
+        1700170200000,
+        1700171100000,
+        1700172000000,
+        1700172900000,
+        1700173800000,
+        1700174700000,
+        1700175600000,
+        1700176500000,
+        1700177400000,
+        1700178300000,
+        1700179200000,
+        1700180100000,
+        1700181000000,
+        1700181900000,
+        1700182800000,
+        1700183700000,
+        1700184600000,
+        1700185500000,
+        1700186400000,
+        1700187300000,
+        1700188200000,
+        1700189100000,
+        1700238600000,
+        1700239500000,
+        1700240400000,
+        1700241300000,
+        1700242200000,
+        1700243100000,
+        1700244000000,
+        1700244900000,
+        1700245800000,
+        1700246700000,
+        1700247600000,
+        1700248500000,
+        1700249400000,
+        1700250300000,
+        1700251200000,
+        1700252100000,
+        1700253000000,
+        1700253900000,
+        1700254800000,
+        1700255700000,
+        1700256600000,
+        1700257500000,
+        1700258400000,
+        1700259300000,
+        1700260200000,
+        1700261100000,
+        1700262000000,
+        1700262900000,
+        1700263800000,
+        1700264700000,
+        1700265600000,
+        1700266500000,
+        1700267400000,
+        1700268300000,
+        1700269200000,
+        1700270100000,
+        1700271000000,
+        1700271900000,
+        1700272800000,
+        1700273700000,
+        1700274600000,
+        1700275500000,
+        1700276400000,
+        1700277300000,
+        1700278200000,
+        1700279100000,
+        1700280000000,
+        1700280900000,
+        1700281800000,
+        1700325000000,
+        1700325900000,
+        1700326800000,
+        1700327700000,
+        1700328600000,
+        1700329500000,
+        1700330400000,
+        1700331300000,
+        1700332200000,
+        1700333100000,
+        1700334000000,
+        1700334900000,
+        1700335800000,
+        1700336700000,
+        1700337600000,
+        1700338500000,
+        1700339400000,
+        1700340300000,
+        1700341200000,
+        1700342100000,
+        1700343000000,
+        1700343900000,
+        1700344800000,
+        1700345700000,
+        1700346600000,
+        1700347500000,
+        1700348400000,
+        1700349300000,
+        1700350200000,
+        1700351100000,
+        1700352000000,
+        1700352900000,
+        1700353800000,
+        1700354700000,
+        1700355600000,
+        1700356500000,
+        1700357400000,
+        1700358300000,
+        1700359200000,
+        1700360100000,
+        1700361000000,
+        1700361900000,
+        1700362800000,
+        1700363700000,
+        1700364600000,
+        1700365500000,
+        1700366400000,
+        1700367300000,
+        1700368200000,
+        1700411400000,
+        1700412300000,
+        1700413200000,
+        1700414100000,
+        1700415000000,
+        1700415900000,
+        1700416800000,
+        1700417700000,
+        1700418600000,
+        1700419500000,
+        1700420400000,
+        1700421300000,
+        1700422200000,
+        1700423100000,
+        1700424000000,
+        1700424900000,
+        1700425800000,
+        1700426700000,
+        1700427600000,
+        1700428500000,
+        1700429400000,
+        1700430300000,
+        1700431200000,
+        1700432100000,
+        1700433000000,
+        1700433900000,
+        1700434800000,
+        1700435700000,
+        1700436600000,
+        1700437500000,
+        1700438400000,
+        1700439300000,
+        1700440200000,
+        1700441100000,
+        1700442000000,
+        1700442900000,
+        1700443800000,
+        1700444700000,
+        1700445600000,
+        1700446500000,
+        1700447400000,
+        1700448300000,
+        1700497800000,
+        1700498700000,
+        1700499600000
+    ],
+    "isNew": false,
+    "acceptsAlcoholStackedOrder": false,
+    "restaurantCustomTaxes": [],
+    "restaurantType": "FULL_SERVICE",
+    "isFavourite": false,
+    "deliveryPackage": "RESTAURANT_SELF_SERVE",
+    "isRetailMenu": false,
+    "isLiveMenuV2": false
+}
